@@ -12,6 +12,18 @@
 .text-primary{
     color: #FD6E0A;
 }
+.secondary-bg{
+    background-color: #FFF8F3;
+}
+.section-title{
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+}
+.section-description{
+    font-size: 18px;
+    color: #757575;
+}
 .dark-2{
     color: #474747;
 }
@@ -77,4 +89,23 @@ nav li a {
 }
 .banner-profile-pic{
     width: 580px;
+}
+/* about style */
+.about{
+    border-radius: 10px;
+    padding: 130px 150px;
+    text-align: center;
+}
+/* main styles */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+    margin-top: 130px;
+}
+.item-description{
+    font-weight: 600;
+}
+.about-items{
+    display: flex;
+    justify-content: space-around;
 }
