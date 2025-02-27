@@ -164,3 +164,17 @@ footer input[type="text"], input[type="email"], footer textarea{
     margin-bottom: 24px;
     border: none;
 }
+@media screen and (max-width: 576px) {
+    .skills-container, .resume-container, footer{
+        flex-direction: column;
+    }
+    footer{
+        padding: 20px;
+    }
+    .footer-column{
+        width: 100%;
+    }
+    footer input[type="text"], input[type="email"], footer textarea{
+        width: calc(100% - 40px);
+    }
+}
